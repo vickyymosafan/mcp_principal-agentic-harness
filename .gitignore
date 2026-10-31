@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Production / Build output
+dist/
+*.tsbuildinfo
+
+# Harness Runtime State & Evidence
+.harness/
+
+# Playwright & Testing
+.playwright/
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini

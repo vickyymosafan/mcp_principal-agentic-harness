@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "principal-agentic-harness": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/principal-agentic-engineering-harness/dist/src/index.js"],
+      "env": {
+        "HARNESS_WORKSPACE_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}

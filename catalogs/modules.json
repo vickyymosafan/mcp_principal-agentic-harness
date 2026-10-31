@@ -1,0 +1,776 @@
+{
+  "catalogVersion": 1,
+  "count": 70,
+  "modules": [
+    {
+      "id": 1,
+      "name": "Requirements-to-Evidence Graph",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menghubungkan requirement dengan implementasi, test, dan bukti pemenuhan.",
+      "capabilities": [
+        "requirement traceability",
+        "acceptance criteria",
+        "evidence mapping"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Adaptive Skill Router & Capability Discovery",
+      "cluster": "Agent Orchestration",
+      "function": "Memilih agent, Skill, MCP, dan capability berdasarkan intent, stack, risiko, serta dependency.",
+      "capabilities": [
+        "skill routing",
+        "capability discovery",
+        "task classification"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Agent Evaluation & Benchmark Lab",
+      "cluster": "Agent Orchestration",
+      "function": "Mengevaluasi kualitas agent melalui benchmark, skenario, dan hasil yang terukur.",
+      "capabilities": [
+        "agent benchmark",
+        "quality evaluation",
+        "scenario testing"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Persistent Engineering Knowledge Graph",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menyimpan hubungan antar-komponen, keputusan, dependency, dan pengetahuan proyek.",
+      "capabilities": [
+        "project knowledge",
+        "dependency graph",
+        "architecture memory"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Risk-Based Autonomy & Permission Engine",
+      "cluster": "Security & Policy",
+      "function": "Menentukan tingkat otonomi dan izin berdasarkan risiko tindakan.",
+      "capabilities": [
+        "least privilege",
+        "approval policy",
+        "risk scoring"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Transactional Patch & Rollback Engine",
+      "cluster": "Verification & Release",
+      "function": "Menerapkan patch secara terkontrol dan mendukung rollback.",
+      "capabilities": [
+        "atomic patch",
+        "rollback",
+        "change transaction"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Adversarial Reviewer & Agent Red Team",
+      "cluster": "Security & Policy",
+      "function": "Mencari kelemahan, bypass, dan perilaku agent yang tidak aman.",
+      "capabilities": [
+        "adversarial testing",
+        "red team",
+        "bypass detection"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "MCP & Skill Supply Chain Security",
+      "cluster": "Security & Policy",
+      "function": "Memeriksa sumber, integritas, dependency, dan risiko MCP serta Skill.",
+      "capabilities": [
+        "tool provenance",
+        "skill integrity",
+        "dependency review"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Adaptive Regression Scheduler",
+      "cluster": "Verification & Release",
+      "function": "Memilih regression test berdasarkan dampak dan risiko perubahan.",
+      "capabilities": [
+        "impact-based testing",
+        "regression selection",
+        "test prioritization"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Verification Receipt",
+      "cluster": "Verification & Release",
+      "function": "Menghasilkan ringkasan terstruktur atas pemeriksaan yang benar-benar dijalankan.",
+      "capabilities": [
+        "verification record",
+        "test evidence",
+        "release receipt"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Controlled Self-Improvement Engine",
+      "cluster": "Agent Orchestration",
+      "function": "Memperbaiki workflow agent berdasarkan evaluasi dengan kontrol perubahan.",
+      "capabilities": [
+        "controlled learning",
+        "prompt improvement",
+        "evaluation loop"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Production Readiness & Operational Gate",
+      "cluster": "Verification & Release",
+      "function": "Menilai kesiapan operasional sebelum release.",
+      "capabilities": [
+        "release gate",
+        "operational readiness",
+        "SLO"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "AI Slop Firewall",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Mendeteksi UI, code, dan konten generik yang tidak sesuai konteks produk.",
+      "capabilities": [
+        "design critique",
+        "generic pattern detection",
+        "content quality"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Anti-Gaming & Verifier Integrity Engine",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Mencegah agent memanipulasi evaluasi atau membuat bukti semu.",
+      "capabilities": [
+        "verifier integrity",
+        "anti-gaming",
+        "evidence authenticity"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Multimodal Quality Verification",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Memeriksa hasil melalui screenshot, DOM, visual, runtime, dan artefak lain.",
+      "capabilities": [
+        "screenshot inspection",
+        "DOM analysis",
+        "visual regression"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Quality Gate Mutation Lab / Counterfactual Testing",
+      "cluster": "Verification & Release",
+      "function": "Menguji apakah quality gate mampu mendeteksi perubahan yang sengaja dibuat bermasalah.",
+      "capabilities": [
+        "mutation testing",
+        "counterfactual testing",
+        "gate validation"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Human-Calibrated Design & Language Benchmark",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Membandingkan desain dan bahasa terhadap benchmark yang dikalibrasi manusia.",
+      "capabilities": [
+        "design benchmark",
+        "language quality",
+        "human review"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Interaction State-Space Explorer",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Mengeksplorasi state interaksi, gesture, viewport, dan perilaku UI.",
+      "capabilities": [
+        "interaction testing",
+        "state exploration",
+        "responsive states"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Complexity Budget & Change Scope Guard",
+      "cluster": "Architecture & Change",
+      "function": "Membatasi kompleksitas dan mencegah perubahan keluar dari scope.",
+      "capabilities": [
+        "scope guard",
+        "complexity budget",
+        "change impact"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Confidence & Evidence Calibration",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menilai tingkat keyakinan berdasarkan relevansi dan kualitas bukti.",
+      "capabilities": [
+        "confidence calibration",
+        "evidence quality",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cross-Layer Semantic Consistency Engine",
+      "cluster": "Architecture & Change",
+      "function": "Memeriksa konsistensi makna antara UI, API, domain, database, dan dokumentasi.",
+      "capabilities": [
+        "semantic consistency",
+        "contract alignment",
+        "cross-layer validation"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "AI Slop Debt & Consistency Ledger",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Melacak inkonsistensi serta temuan kualitas rendah yang belum diselesaikan.",
+      "capabilities": [
+        "slop debt",
+        "consistency ledger",
+        "design debt"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Policy Precedence & Conflict Resolver",
+      "cluster": "Security & Policy",
+      "function": "Menentukan kebijakan yang menang ketika aturan saling bertentangan.",
+      "capabilities": [
+        "policy precedence",
+        "conflict resolution",
+        "policy hierarchy"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Context Lifecycle & Handoff Protocol",
+      "cluster": "Agent Orchestration",
+      "function": "Mengelola konteks kerja dan handoff antar-agent.",
+      "capabilities": [
+        "context packet",
+        "handoff",
+        "context lifecycle"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Multi-Agent Workspace & Concurrency Coordinator",
+      "cluster": "Agent Orchestration",
+      "function": "Mengatur kolaborasi paralel, file ownership, locking, dan konflik.",
+      "capabilities": [
+        "parallel agents",
+        "workspace coordination",
+        "file ownership"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Hermetic Environment & Reproducibility",
+      "cluster": "Verification & Release",
+      "function": "Menjaga environment build dan test tetap konsisten serta dapat direproduksi.",
+      "capabilities": [
+        "reproducible build",
+        "environment isolation",
+        "deterministic test"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Agent Run Observability & Replay",
+      "cluster": "Agent Orchestration",
+      "function": "Merekam aktivitas agent dan mendukung investigasi serta replay.",
+      "capabilities": [
+        "agent tracing",
+        "run logs",
+        "replay"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Failure Classification & Recovery",
+      "cluster": "Agent Orchestration",
+      "function": "Mengklasifikasikan kegagalan dan memilih strategi recovery.",
+      "capabilities": [
+        "failure taxonomy",
+        "retry",
+        "recovery"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Agent Privacy & Data Boundary",
+      "cluster": "Security & Policy",
+      "function": "Membatasi akses, pemrosesan, dan perpindahan data.",
+      "capabilities": [
+        "privacy boundary",
+        "data minimization",
+        "secret handling"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Chaos & Resilience Verification Lab",
+      "cluster": "Verification & Release",
+      "function": "Menguji ketahanan sistem saat mengalami gangguan dan kondisi ekstrem.",
+      "capabilities": [
+        "chaos testing",
+        "resilience",
+        "fault injection"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Policy Exception & Expiry Manager",
+      "cluster": "Security & Policy",
+      "function": "Mengelola pengecualian kebijakan dengan scope dan masa berlaku.",
+      "capabilities": [
+        "policy exception",
+        "expiry",
+        "approval"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Production Feedback & Drift Loop",
+      "cluster": "Production Feedback & Learning",
+      "function": "Menggunakan sinyal production untuk mendeteksi drift dan masalah kualitas.",
+      "capabilities": [
+        "production feedback",
+        "drift detection",
+        "incident signals"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Golden Path & Secure-by-Default Engine",
+      "cluster": "Security & Policy",
+      "function": "Menyediakan jalur implementasi aman sebagai default.",
+      "capabilities": [
+        "secure defaults",
+        "golden path",
+        "secure templates"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Metamorphic & Property-Based Verification",
+      "cluster": "Verification & Release",
+      "function": "Menguji invariant dan relasi hasil saat input berubah.",
+      "capabilities": [
+        "property-based tests",
+        "metamorphic tests",
+        "invariants"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Compatibility & Schema Evolution",
+      "cluster": "Architecture & Change",
+      "function": "Mengelola kompatibilitas antarversi dan evolusi schema.",
+      "capabilities": [
+        "schema evolution",
+        "backward compatibility",
+        "migration contract"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Progressive Delivery & SLO Guard",
+      "cluster": "Verification & Release",
+      "function": "Mengatur rollout bertahap dan menghentikan release saat indikator layanan memburuk.",
+      "capabilities": [
+        "progressive delivery",
+        "SLO guard",
+        "rollback trigger"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "AI Code Provenance & License Gate",
+      "cluster": "Security & Policy",
+      "function": "Memeriksa asal kode, provenance, dan risiko lisensi.",
+      "capabilities": [
+        "code provenance",
+        "license audit",
+        "attribution"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Agent Execution Isolation & Egress Guard",
+      "cluster": "Security & Policy",
+      "function": "Mengisolasi eksekusi agent dan membatasi akses jaringan keluar.",
+      "capabilities": [
+        "sandboxing",
+        "egress policy",
+        "execution isolation"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Evidence Freshness & Invalidation",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menandai bukti yang tidak lagi relevan setelah perubahan source atau environment.",
+      "capabilities": [
+        "evidence invalidation",
+        "freshness",
+        "change linkage"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "External Contract & Deprecation Watch",
+      "cluster": "Architecture & Change",
+      "function": "Memantau kontrak eksternal, API, dependency, dan deprecation.",
+      "capabilities": [
+        "API contract",
+        "dependency watch",
+        "deprecation"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Agent Trajectory Quality Engine",
+      "cluster": "Agent Orchestration",
+      "function": "Menilai kualitas proses dan keputusan agent sepanjang tugas.",
+      "capabilities": [
+        "trajectory evaluation",
+        "tool choice",
+        "reasoning behavior"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Agent Budget & Runaway Loop Governor",
+      "cluster": "Agent Orchestration",
+      "function": "Membatasi durasi, token, tool calls, concurrency, retry, dan loop agent.",
+      "capabilities": [
+        "budget control",
+        "loop detection",
+        "concurrency limits"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Evidence Chain-of-Custody",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menjaga asal-usul, integritas, dan keterlacakan bukti.",
+      "capabilities": [
+        "evidence provenance",
+        "artifact integrity",
+        "audit trail"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Reliability Under Perturbation",
+      "cluster": "Verification & Release",
+      "function": "Menguji kestabilan ketika sistem menghadapi variasi kondisi yang tidak ideal.",
+      "capabilities": [
+        "perturbation testing",
+        "reliability",
+        "robustness"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Policy Conformance & Bypass-Test",
+      "cluster": "Security & Policy",
+      "function": "Memeriksa kepatuhan kebijakan dan mencoba melewati kontrolnya.",
+      "capabilities": [
+        "policy conformance",
+        "bypass testing",
+        "control validation"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Executable Documentation & Runbook Verification",
+      "cluster": "Verification & Release",
+      "function": "Memastikan dokumentasi dan runbook sesuai dengan perilaku sistem nyata.",
+      "capabilities": [
+        "runbook testing",
+        "executable docs",
+        "operational docs"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Model, Skill & Tool Upgrade Canary",
+      "cluster": "Agent Orchestration",
+      "function": "Menguji upgrade model, Skill, dan MCP sebelum dipakai luas.",
+      "capabilities": [
+        "upgrade canary",
+        "version compatibility",
+        "regression"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Memory Integrity & Provenance Guard",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Mencegah memori tercampur asumsi, data stale, atau sumber tak jelas.",
+      "capabilities": [
+        "memory provenance",
+        "memory validation",
+        "stale context"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Requirement Ambiguity & Assumption Engine",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Mendeteksi requirement ambigu dan mencatat asumsi yang digunakan.",
+      "capabilities": [
+        "ambiguity detection",
+        "assumption ledger",
+        "clarification"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Causal Failure Attribution & Repair Selection",
+      "cluster": "Architecture & Change",
+      "function": "Menemukan akar penyebab kegagalan dan memilih perbaikan terkecil yang tepat.",
+      "capabilities": [
+        "root cause analysis",
+        "repair selection",
+        "causal attribution"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Regression Learning Compiler",
+      "cluster": "Production Feedback & Learning",
+      "function": "Mengubah kegagalan terdahulu menjadi regression test yang dapat dijalankan.",
+      "capabilities": [
+        "regression generation",
+        "failure learning",
+        "test evolution"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Proactive Engineering Signal & Intervention",
+      "cluster": "Production Feedback & Learning",
+      "function": "Menemukan sinyal risiko lebih awal dan mengusulkan tindakan.",
+      "capabilities": [
+        "early warning",
+        "engineering signals",
+        "preventive intervention"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Decision Packet & Human Handoff",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Menyusun keputusan, bukti, risiko, dan kebutuhan persetujuan manusia.",
+      "capabilities": [
+        "human handoff",
+        "decision record",
+        "approval packet"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Independent Evidence Diversity Gate",
+      "cluster": "Verification & Release",
+      "function": "Memastikan bukti berasal dari metode pemeriksaan yang cukup independen.",
+      "capabilities": [
+        "independent verification",
+        "evidence diversity",
+        "cross-validation"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Build & Pipeline Slop Auditor",
+      "cluster": "Architecture & Change",
+      "function": "Mendeteksi masalah pada build scripts, pipeline, dan konfigurasi otomatisasi.",
+      "capabilities": [
+        "pipeline audit",
+        "build configuration",
+        "CI hygiene"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Maintainability Rehearsal Gate",
+      "cluster": "Architecture & Change",
+      "function": "Menguji apakah perubahan mudah dipahami dan dirawat developer berikutnya.",
+      "capabilities": [
+        "maintainability",
+        "code comprehension",
+        "rehearsal"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Patch Reviewability & Developer Handoff Gate",
+      "cluster": "Architecture & Change",
+      "function": "Memastikan patch mudah ditinjau dan disertai handoff yang cukup.",
+      "capabilities": [
+        "patch reviewability",
+        "developer handoff",
+        "diff quality"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Harness Convergence & Structural Idempotence",
+      "cluster": "Architecture & Change",
+      "function": "Mencegah automation loop menghasilkan perubahan struktur berulang tanpa alasan.",
+      "capabilities": [
+        "idempotence",
+        "convergence",
+        "structural drift"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Policy-to-Control Coverage Auditor",
+      "cluster": "Security & Policy",
+      "function": "Memastikan setiap kebijakan memiliki kontrol, test, dan bukti.",
+      "capabilities": [
+        "policy coverage",
+        "control mapping",
+        "audit evidence"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Formal Behavioral Contract & Temporal Invariant",
+      "cluster": "Verification & Release",
+      "function": "Memeriksa kontrak perilaku dan urutan kejadian yang wajib dipertahankan.",
+      "capabilities": [
+        "behavioral contract",
+        "temporal invariant",
+        "state transition"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Finding Signal-to-Noise & Deduplication",
+      "cluster": "Design, UX & AI Slop Integrity",
+      "function": "Menggabungkan temuan duplikat dan memprioritaskan masalah penting.",
+      "capabilities": [
+        "finding deduplication",
+        "signal to noise",
+        "severity scoring"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Assurance Profile & Control Applicability Matrix",
+      "cluster": "Security & Policy",
+      "function": "Menentukan kontrol yang berlaku sesuai jenis proyek dan tingkat risikonya.",
+      "capabilities": [
+        "assurance profile",
+        "control applicability",
+        "risk tiers"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Behavioral Harness Regression Suite",
+      "cluster": "Verification & Release",
+      "function": "Menguji perilaku harness, termasuk delegasi, tool selection, browser QA, dan recovery.",
+      "capabilities": [
+        "harness regression",
+        "agent behavior testing",
+        "workflow validation"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Repository Legibility & Context Index Audit",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Memastikan agent dapat menemukan source of truth dan memahami struktur repository.",
+      "capabilities": [
+        "repository indexing",
+        "context discovery",
+        "source of truth"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Quality-Adjusted Throughput & Entropy Budget",
+      "cluster": "Architecture & Change",
+      "function": "Mengukur throughput dengan mempertimbangkan kualitas dan kompleksitas tambahan.",
+      "capabilities": [
+        "quality throughput",
+        "engineering entropy",
+        "work efficiency"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "MCP Tool Contract & Behavioral Conformance",
+      "cluster": "Agent Orchestration",
+      "function": "Memastikan tool memenuhi schema, perilaku, error contract, dan permission.",
+      "capabilities": [
+        "MCP schema",
+        "tool conformance",
+        "contract test"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Agent Onboarding & Cold-Start",
+      "cluster": "Requirements, Context & Evidence",
+      "function": "Membantu agent memahami proyek baru secara cepat tanpa asumsi yang tidak didukung.",
+      "capabilities": [
+        "agent onboarding",
+        "cold start",
+        "project briefing"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Statistical Evaluation Integrity",
+      "cluster": "Agent Orchestration",
+      "function": "Menjaga validitas sampel, pengulangan, dan kesimpulan benchmark agent.",
+      "capabilities": [
+        "statistical validity",
+        "sampling",
+        "evaluation confidence"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Refactor Intent Arbitration",
+      "cluster": "Architecture & Change",
+      "function": "Memastikan refactor memiliki tujuan dan tidak tercampur tanpa kontrol dengan perubahan fitur.",
+      "capabilities": [
+        "refactor intent",
+        "scope separation",
+        "change arbitration"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Data Migration & Cutover Rehearsal",
+      "cluster": "Architecture & Change",
+      "function": "Melatih migrasi data, rollback, verifikasi, dan perpindahan sistem sebelum cutover.",
+      "capabilities": [
+        "data migration",
+        "cutover",
+        "rollback rehearsal"
+      ]
+    }
+  ]
+}

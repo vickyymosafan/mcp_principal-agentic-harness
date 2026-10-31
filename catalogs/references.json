@@ -1,0 +1,262 @@
+{
+  "categories": [
+    {
+      "id": "design-direction",
+      "name": "Design Direction",
+      "sources": [
+        {
+          "title": "Impeccable",
+          "url": "https://impeccable.style/",
+          "verificationStatus": "verified",
+          "purpose": "Design critique, quality heuristics, UX writing and avoidance of generic patterns."
+        },
+        {
+          "title": "Taste Skill",
+          "url": "https://www.tasteskill.dev/",
+          "verificationStatus": "verified",
+          "purpose": "Audit-first design brief and product context."
+        },
+        {
+          "title": "Frontend Design",
+          "url": "https://craftwork.design/skills/frontend-design",
+          "verificationStatus": "verified",
+          "purpose": "Distinct visual identity, layout, typography, responsive and accessibility."
+        },
+        {
+          "title": "Hallmark",
+          "url": "https://craftwork.design/skills/hallmark",
+          "verificationStatus": "verified",
+          "purpose": "Page structure, theme, preflight, audit and redesign."
+        },
+        {
+          "title": "Emil Design Engineering",
+          "url": "https://craftwork.design/skills/emil-design-engineering",
+          "verificationStatus": "verified",
+          "purpose": "Implementation details for interaction and visual feedback."
+        },
+        {
+          "title": "Anti-Slop UI",
+          "url": "https://craftwork.design/skills/antislop-ui",
+          "verificationStatus": "verified",
+          "purpose": "Generic UI pattern and filler prevention."
+        },
+        {
+          "title": "Better Layout",
+          "url": "https://craftwork.design/skills/better-layout",
+          "verificationStatus": "verified",
+          "purpose": "Alignment, spacing, hierarchy, DOM order and responsive layout."
+        }
+      ]
+    },
+    {
+      "id": "review-audit",
+      "name": "Review & Audit",
+      "sources": [
+        {
+          "title": "Interface Review",
+          "url": "https://craftwork.design/skills/interface-review",
+          "verificationStatus": "verified",
+          "purpose": "End-to-end interface review and usability audit."
+        },
+        {
+          "title": "Anti-Slop Guards",
+          "url": "https://craftwork.design/skills/anti-slop-guards",
+          "verificationStatus": "verified",
+          "purpose": "Rule-based AI slop prevention."
+        },
+        {
+          "title": "Better Writing",
+          "url": "https://craftwork.design/skills/better-writing",
+          "verificationStatus": "verified",
+          "purpose": "UX writing and content quality."
+        },
+        {
+          "title": "Improve UI",
+          "url": "https://craftwork.design/skills/improve-ui",
+          "verificationStatus": "verified",
+          "purpose": "Structured UI improvement workflow."
+        },
+        {
+          "title": "Better Interface",
+          "url": "https://craftwork.design/skills/better-interface",
+          "verificationStatus": "verified",
+          "purpose": "Interface hierarchy and component quality."
+        },
+        {
+          "title": "Break UI",
+          "url": "https://craftwork.design/skills/break-ui",
+          "verificationStatus": "verified",
+          "purpose": "Stress test layout, overflow, breakpoints and interaction states."
+        }
+      ]
+    },
+    {
+      "id": "typography",
+      "name": "Typography",
+      "sources": [
+        {
+          "title": "Modular Scale Typography",
+          "url": "https://craftwork.design/skills/modular-scale-typography",
+          "verificationStatus": "verified",
+          "purpose": "Modular type scale and ratio-based hierarchy."
+        },
+        {
+          "title": "Typography Audit",
+          "url": "https://craftwork.design/skills/typography-audit",
+          "verificationStatus": "verified",
+          "purpose": "Audit font, weight, line-height, spacing and pairing."
+        },
+        {
+          "title": "Web Typography",
+          "url": "https://craftwork.design/skills/web-typography",
+          "verificationStatus": "verified",
+          "purpose": "Readability, responsive type and font loading."
+        }
+      ]
+    },
+    {
+      "id": "3d-shaders",
+      "name": "3D & Shaders",
+      "sources": [
+        {
+          "title": "Three.js Fundamentals",
+          "url": "https://craftwork.design/skills/threejs-fundamentals",
+          "verificationStatus": "unverified",
+          "purpose": "Fundamental Three.js source; the page could not be accessed in the research session."
+        },
+        {
+          "title": "Three.js Scroll Worlds",
+          "url": "https://craftwork.design/skills/threejs-scroll-worlds",
+          "verificationStatus": "verified",
+          "purpose": "Persistent 3D worlds and scroll-driven scenes."
+        },
+        {
+          "title": "Shader Dev",
+          "url": "https://craftwork.design/skills/shader-dev",
+          "verificationStatus": "verified",
+          "purpose": "GLSL techniques, procedural effects and shader debugging."
+        },
+        {
+          "title": "Three.js Shaders",
+          "url": "https://craftwork.design/skills/threejs-shaders",
+          "verificationStatus": "verified",
+          "purpose": "ShaderMaterial, uniforms, varyings and shader integration."
+        }
+      ]
+    },
+    {
+      "id": "design-systems",
+      "name": "Design Systems",
+      "sources": [
+        {
+          "title": "Extract DESIGN.md",
+          "url": "https://craftwork.design/skills/extract-design-md",
+          "verificationStatus": "verified",
+          "purpose": "Extract design tokens and visual language from a repository."
+        },
+        {
+          "title": "Expo Design System",
+          "url": "https://craftwork.design/skills/expo-design-system",
+          "verificationStatus": "verified",
+          "purpose": "Reusable tokens and component states."
+        },
+        {
+          "title": "Theme Factory",
+          "url": "https://craftwork.design/skills/theme-factory",
+          "verificationStatus": "verified",
+          "purpose": "Theme generation and combinations."
+        },
+        {
+          "title": "Hue",
+          "url": "https://craftwork.design/skills/hue",
+          "verificationStatus": "verified",
+          "purpose": "Brand language reconstruction from website, source or screenshot."
+        },
+        {
+          "title": "UI UX Pro Max",
+          "url": "https://craftwork.design/skills/ui-ux-pro-max",
+          "verificationStatus": "verified",
+          "purpose": "Design intelligence, guidelines and stack patterns."
+        },
+        {
+          "title": "Material UI Theming",
+          "url": "https://craftwork.design/skills/material-ui-theming",
+          "verificationStatus": "verified",
+          "purpose": "Theme architecture, palette, breakpoints and dark mode."
+        }
+      ]
+    },
+    {
+      "id": "motion-animation",
+      "name": "Motion & Animation",
+      "sources": [
+        {
+          "title": "Apple Design",
+          "url": "https://craftwork.design/skills/apple-design",
+          "verificationStatus": "verified",
+          "purpose": "Gesture, spring physics, momentum and fluid interaction."
+        },
+        {
+          "title": "Animation Performance",
+          "url": "https://craftwork.design/skills/animation-performance",
+          "verificationStatus": "partial",
+          "purpose": "Frame performance and rendering cost; source-level verification incomplete."
+        },
+        {
+          "title": "Motion Design",
+          "url": "https://craftwork.design/skills/motion-design",
+          "verificationStatus": "partial",
+          "purpose": "Motion identity, timing, staging and choreography; source-level verification incomplete."
+        },
+        {
+          "title": "Emil Animate",
+          "url": "https://craftwork.design/skills/emil-animate",
+          "verificationStatus": "verified",
+          "purpose": "Animation planning and implementation details."
+        },
+        {
+          "title": "Find Animation Opportunities",
+          "url": "https://craftwork.design/skills/find-animation-opportunities",
+          "verificationStatus": "verified",
+          "purpose": "Identify purposeful animation opportunities."
+        },
+        {
+          "title": "Improve Animations",
+          "url": "https://craftwork.design/skills/improve-animations",
+          "verificationStatus": "partial",
+          "purpose": "Animation audit and improvement; source-level verification incomplete."
+        }
+      ]
+    },
+    {
+      "id": "color-theming",
+      "name": "Color & Theming",
+      "sources": [
+        {
+          "title": "Better Colors",
+          "url": "https://craftwork.design/skills/better-colors",
+          "verificationStatus": "verified",
+          "purpose": "Color ramps, semantic tokens and contrast."
+        },
+        {
+          "title": "Algorithmic Color Palette",
+          "url": "https://craftwork.design/skills/algorithmic-color-palette",
+          "verificationStatus": "verified",
+          "purpose": "Derive palettes from brand colors."
+        },
+        {
+          "title": "Color Expert",
+          "url": "https://craftwork.design/skills/color-expert",
+          "verificationStatus": "verified",
+          "purpose": "OKLCH, color science, harmony and gamut mapping."
+        },
+        {
+          "title": "Color Palette",
+          "url": "https://craftwork.design/skills/color-palette",
+          "verificationStatus": "verified",
+          "purpose": "Palette scale, semantic color and light/dark theme."
+        }
+      ]
+    }
+  ]
+}

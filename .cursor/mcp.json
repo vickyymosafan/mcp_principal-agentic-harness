@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "principal-agentic-harness": {
+      "command": "node",
+      "args": ["${workspaceFolder}/dist/src/index.js"],
+      "env": { "HARNESS_WORKSPACE_ROOT": "${workspaceFolder}" }
+    }
+  }
+}

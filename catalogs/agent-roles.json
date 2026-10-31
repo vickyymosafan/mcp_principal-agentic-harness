@@ -1,0 +1,99 @@
+{
+  "roles": [
+    {
+      "id": "principal-orchestrator",
+      "responsibility": "Owns plan, dependencies, delegation, synthesis, budgets and workflow state.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "discovery-lead",
+      "responsibility": "Owns requirement clarity, repository context, assumptions and evidence mapping.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "governance-lead",
+      "responsibility": "Owns permissions, risk, privacy, policy and tool boundaries.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "architecture-lead",
+      "responsibility": "Owns application architecture, dependency direction and change boundaries.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "design-lead",
+      "responsibility": "Owns design contract, UI quality, design systems and experience coherence.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "frontend-developer",
+      "responsibility": "Owns frontend implementation in assigned files and feature boundaries.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "backend-developer",
+      "responsibility": "Owns backend implementation, APIs, domain and persistence boundaries.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "threejs-developer",
+      "responsibility": "Owns 3D scene, geometry, materials, shaders and GPU constraints.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "motion-developer",
+      "responsibility": "Owns motion choreography, interaction physics and animation performance.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "responsive-qa-agent",
+      "responsibility": "Owns responsive-first browser inspection, reporting and regression evidence.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "visual-qa-agent",
+      "responsibility": "Owns layout and visual quality audits.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "functional-qa-agent",
+      "responsibility": "Owns functional state and interaction scenarios.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "design-qa-agent",
+      "responsibility": "Owns typography, color, theming and motion audits.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "threejs-qa-agent",
+      "responsibility": "Independently inspects Three.js scene composition, shader compilation and runtime errors, resource lifecycle, scroll determinism, GPU evidence, and device fallback.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "accessibility-qa-agent",
+      "responsibility": "Owns keyboard, semantics, contrast, zoom and reduced-motion audits.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "performance-qa-agent",
+      "responsibility": "Owns runtime, network, loading, rendering and GPU performance evidence.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "security-qa-agent",
+      "responsibility": "Owns independent security and policy verification.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "independent-assurance-lead",
+      "responsibility": "Owns evidence review and final acceptance decision; must not implement the patch being verified.",
+      "execution": "host-delegated"
+    },
+    {
+      "id": "release-lead",
+      "responsibility": "Owns release packet, documentation, deployment authorization and handoff.",
+      "execution": "host-delegated"
+    }
+  ]
+}
