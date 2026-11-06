@@ -141,6 +141,19 @@ export class PlaywrightInspector implements BrowserInspectorPort {
             if (httpErrors.some(item => new URL(item.url).origin === base.origin)) issues.push('One or more same-origin requests returned HTTP 4xx/5xx.');
             const localFailedRequests = failedRequests.filter(value => { try { return new URL(value.match(/https?:\/\/\S+/)?.[0] ?? '').origin === base.origin; } catch { return false; } });
             if (localFailedRequests.length) issues.push(`${localFailedRequests.length} same-origin request(s) failed.`);
+
+            const webglAudit = await page.evaluate(() => {
+              const canvases = Array.from(document.querySelectorAll('canvas'));
+              let contextLost = false;
+              for (const c of canvases) {
+                try {
+                  const gl = (c.getContext('webgl2') || c.getContext('webgl')) as WebGLRenderingContext | null;
+                  if (gl && gl.isContextLost && gl.isContextLost()) contextLost = true;
+                } catch { /* Ignore canvas evaluation error */ }
+              }
+              return { contextLost };
+            }).catch(() => ({ contextLost: false }));
+            if (webglAudit.contextLost) issues.push('WebGL context lost detected on one or more canvas elements.');
             await page.screenshot({ path: screenshotPath, fullPage: true, animations: 'disabled' });
           } catch (error) {
             issues.push(error instanceof Error ? error.message : String(error));
